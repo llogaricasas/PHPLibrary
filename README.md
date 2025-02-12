@@ -24,11 +24,11 @@ Initialize the library and start using its features:
 ```php
 $library = new EasyBackEndPHP();
 
-$CharEncoding    = $library->CharEncoding($string);
-$FTP             = $library->FTP($host, $user, $password);
-$ImageEditor     = $library->ImageEditor($filename);
-$MySQL           = $library->MySQL($host, $database, $user, $password);
-$Session         = $library->Session($lifetime, $path, $domain, $secure, $http_only);
+$CharEncoding = $library->CharEncoding($string);
+$FTP = $library->FTP($host, $user, $password);
+$ImageEditor = $library->ImageEditor($filename);
+$MySQL = $library->MySQL($host, $database, $user, $password);
+$Session = $library->Session($lifetime, $path, $domain, $secure, $http_only);
 $StringGenerator = $library->StringGenerator($length);
 ```
 
